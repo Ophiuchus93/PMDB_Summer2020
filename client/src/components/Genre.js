@@ -14,7 +14,6 @@ const Genre = (props) => {
           as={Link}
           to={{
             pathname: `/api/genres/${props.id}`,
-            state: {delete: props.delete}
           }}
         >
           {props.name}
