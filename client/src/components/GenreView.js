@@ -57,6 +57,8 @@ const GenreView = (props) => {
       >
         Back
       </Button>
+      <br />
+      <br />
       <Movies genreId={props.match.params.id}/>
     </>
   )

@@ -7,7 +7,7 @@ class Api::MoviesController < ApplicationController
   end
 
   def show
-
+      render json: @movie
   end
 
   def create
