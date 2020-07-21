@@ -19,7 +19,7 @@ const GenreView = (props) => {
   const deleteGenre = () => {
     axios.delete(`/api/genres/${props.match.params.id}`)
       .then(
-        props.history.push("/")
+        setTimeout(() => props.history.push("/"), 100)
       )
   }
 

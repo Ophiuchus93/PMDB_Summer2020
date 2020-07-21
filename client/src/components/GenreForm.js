@@ -40,7 +40,7 @@ const GenreForm = (props) => {
             onChange={(e) => setName(e.target.value)}
           />
         </Form.Group>
-        <Button type="submit">Submit</Button>
+        <Button variant="outline-primary" type="submit">Submit</Button>
       </Form>
     </>
   )
